@@ -1,0 +1,246 @@
+section {
+
+    /* min-height: 450px; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body * {
+    transition: all 2s;
+    background-blend-mode: luminosity;
+
+    /* background-color: red; */
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* margin: 5px; */
+    /* margin-bottom: 35px; */
+    padding: 10px 0 5px 0;
+
+}
+
+h1 {
+    color: ivory !important;
+    /* text-shadow: 2.5px -3px 0.5px ivory; */
+    text-align: right;
+}
+
+h4 {
+    color: goldenrod;
+}
+
+img {
+    border-radius: 5px;
+    width: 100%;
+    height: 200px;
+    /* height: fit-content; */
+    /* max-height: 400px; */
+    object-fit: cover;
+    /* padding: ÷0px; */
+    /* margin: 0px; */
+    box-shadow: 4px 4px 5px gainsboro;
+
+
+}
+
+section {
+    /* margin: 0; */
+    /* padding: 0; */
+    /* height: fit-content !important; */
+    /* max-height:  200px!important; */
+}
+
+.jumbotron {
+    min-height: 85vh;
+    height: auto;
+    background-image: url(../images/bg1.jpeg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    object-fit: cover;
+    overflow: hidden;
+    background-origin: border-box;
+    /* background-blend-mode: color-burn; */
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: space-between !important; */
+    /* padding-top: 60vh; */
+    color: ivory;
+    margin-bottom: 0;
+
+}
+.red {
+    color:gray !important;
+    text-shadow: 1px 1px 1px white;
+}
+
+
+.jumbotron.d-lg-flex {
+    min-height: 81.2vh;
+}
+nav.d-lg-flex.secondNav {
+    height: 10vh;
+}
+nav.d-lg-flex.basketNav {
+    height: 9vh;
+}
+nav.d-md-none {
+    min-height: 8vh;
+}
+.jumbotron.d-lg-none {
+    max-height: 92vh;
+    min-height: 92vh;
+}
+.sticky-top.secondNav {
+    top: 7.8vh !important;
+    margin-bottom: 3vh;
+  }
+
+
+  .navbar-brand {
+      height: 6vh;
+  }
+.basket, .account, .login, .logout {
+    display: inline-block;
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;;
+    margin-bottom: 0px;
+   margin-left: 5px;
+
+}
+.basket {
+    background-image: url(../images/basket.png);
+}
+.account {
+    background-image: url(../images/account.png);
+}
+.login {
+    background-image: url(../images/login.png);
+    height: 27px;
+    width: 27px;
+}
+.logout {
+    background-image: url(../images/logout.png);
+    height: 25px;
+    width: 25px;
+}
+/* #toggleMyNav {
+    height: 30vh;
+} */
+
+a.nav-link {
+    font-weight: normal;
+}
+
+.logo {
+    background-image: url(../images/apex1.png);
+    background-color: ivory;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 8vh;
+    /* padding-left: 12vw; */
+}
+
+.logo h2 {
+    /* padding-left: 0px; */
+    font-weight: lighter;
+}
+
+
+nav * {
+    color: black !important;
+}
+
+
+img.brandLogo {
+    height: 40px;
+    width: 40px;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: transparent;
+    /* margin-left: -60px; */
+}
+
+
+.separator {
+    border-bottom: 1px solid gray;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.separator {
+
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+}
+
+img.product {
+    display: block;
+    min-height: 250px;
+    max-height: 300px;
+    width: 100%; 
+    object-fit: cover;
+    overflow: hidden;
+    background-origin: border-box;
+    /* background-blend-mode: color-burn; */
+    background-position: center;
+    /* float: left; */
+    
+
+}
+.description {
+    float: left;
+  
+    overflow: auto;
+    text-overflow: ellipsis;
+    white-space: wrap;
+ 
+}
+li, .category {
+    clear: both;
+}
+section{
+    border-bottom: solid 1px #d4d4d4;
+}
+
+section:last-of-type {
+    border-bottom: none;
+}
+
+
+.footer a {
+font-size: 0.9rem;
+}
+.copyright {
+    font-size: 0.8rem;
+}
+.dropdown, .dropdown-menu {
+    z-index: 2;
+    
+}
+.dropdown-menu {
+    margin-top: -5px;
+}
+.secondNav {
+    z-index: 1;
+}
